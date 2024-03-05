@@ -1,0 +1,6 @@
+:root{--first-color:#2F303A;}
+.main-section{
+    background-color: var(--first-color, red);
+}
+:root{--second-color:#F5F4FA;}
+:root{--third-color:#FFFFFF;}
