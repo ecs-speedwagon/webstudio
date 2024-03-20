@@ -2,3 +2,9 @@
 .main-section{
     background-color: var(--first-color, red);
 }
+.raleway{
+    font-family:'Raleway' ;
+}
+.roboto{
+    font-family: 'Roboto';
+}
