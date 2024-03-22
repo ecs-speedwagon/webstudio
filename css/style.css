@@ -1,4 +1,4 @@
-:root{--first-color:#2F303A; --second-color:#F5F4FA; --third-color:#FFFFFF;}
+:root{--first-color:#2F303A; --second-color:#F5F4FA; --third-color:#FFFFFF; --fourth-color: #212121; --fifth-color: #757575 ;}
 .main-section{
     background-color: var(--first-color, red);
 }
@@ -19,7 +19,7 @@
     line-height: 16px;
     letter-spacing: 0,02em;
     text-decoration: none;
-    color: #212121;
+    color: var(--fourth-color);
     text-align: left; 
 }
 h1{
@@ -29,7 +29,7 @@ h1{
     line-height: 60px;
     letter-spacing: 0,06em;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--third-color);
     text-align: center; 
 }
 .btn{
@@ -39,7 +39,7 @@ h1{
     line-height: 30px;
     letter-spacing: 0,06em;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--third-color);
     text-align: center; 
 }
 .different{
@@ -49,7 +49,7 @@ h1{
     line-height: 16px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #212121;
+    color: var(--fourth-color);
     text-align: left; 
 }
 .different-b{
@@ -59,7 +59,7 @@ h1{
     line-height: 24px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #757575;
+    color: var(--fifth-color);
     text-align: left; 
 }
 h2{
@@ -69,7 +69,7 @@ h2{
     line-height: 42px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #212121;
+    color: var(--fourth-color);
     text-align: center; 
 }
 .name{
@@ -79,7 +79,7 @@ h2{
     line-height: 19px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #212121;
+    color: var(--fourth-color);
     text-align: center; 
 }
 .job{
@@ -89,7 +89,7 @@ h2{
     line-height: 19px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #212121;
+    color: var(--fourth-color);
     text-align: center; 
 }
 address{
@@ -99,7 +99,7 @@ address{
     line-height: 24px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--third-color);
     text-align: left; 
 }
 .movement{
@@ -109,7 +109,7 @@ address{
     line-height: 26px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #212121;
+    color:var(--fourth-color);
     text-align: center; 
 }
 .name-two{
@@ -119,7 +119,7 @@ address{
     line-height: 30px;
     letter-spacing: 0,06em;
     text-decoration: none;
-    color: #212121;
+    color: var(--fourth-color);
     text-align: left; 
 }
 .under-name{
@@ -129,6 +129,6 @@ address{
     line-height: 30px;
     letter-spacing: 0,03em;
     text-decoration: none;
-    color: #757575;
+    color: var(--fifth-color);
     text-align: left; 
 }
