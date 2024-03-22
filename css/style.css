@@ -22,7 +22,7 @@
     color: var(--fourth-color);
     text-align: left; 
 }
-h1{
+.big-text{
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -62,7 +62,7 @@ h1{
     color: var(--fifth-color);
     text-align: left; 
 }
-h2{
+.smaller-text{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
