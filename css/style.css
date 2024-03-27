@@ -2,7 +2,7 @@
 .main-section{
     background-color: var(--first-color, red);
 }
-.logo{
+.main-nav-item{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -22,7 +22,7 @@
     color: var(--fourth-color);
     text-align: left; 
 }
-.big-text{
+.main-section-item{
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -32,7 +32,7 @@
     color: var(--third-color);
     text-align: center; 
 }
-.btn{
+.main-section-item-2{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -42,7 +42,7 @@
     color: var(--third-color);
     text-align: center; 
 }
-.different{
+.main-ul-item{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -52,7 +52,7 @@
     color: var(--fourth-color);
     text-align: left; 
 }
-.different-b{
+.main-ul-item-2{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -72,7 +72,7 @@
     color: var(--fourth-color);
     text-align: center; 
 }
-.name{
+.second-ul-name{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -82,7 +82,7 @@
     color: var(--fourth-color);
     text-align: center; 
 }
-.job{
+.second-ul-job{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -102,7 +102,7 @@ address{
     color: var(--third-color);
     text-align: left; 
 }
-.movement{
+.buttons-ul-item{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -112,7 +112,7 @@ address{
     color:var(--fourth-color);
     text-align: center; 
 }
-.name-two{
+.third-ul-item{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
@@ -122,7 +122,7 @@ address{
     color: var(--fourth-color);
     text-align: left; 
 }
-.under-name{
+.third-ul-item-2{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -134,4 +134,14 @@ address{
 }
 li{
     list-style: none;
+}
+.address{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0,03em;
+    text-decoration: none;
+    color: var(--fifth-color);
+    text-align: left; 
 }
