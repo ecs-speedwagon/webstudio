@@ -52,7 +52,7 @@
     color: var(--fourth-color);
     text-align: left; 
 }
-.main-ul-item-2{
+.main-ul-item-text{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -122,7 +122,7 @@ address{
     color: var(--fourth-color);
     text-align: left; 
 }
-.third-ul-item-2{
+.third-ul-item-name{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
