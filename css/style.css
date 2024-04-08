@@ -32,7 +32,7 @@
     color: var(--third-color);
     text-align: center; 
 }
-.main-section-item-2{
+.main-section-item-button{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -144,4 +144,9 @@ li{
     text-decoration: none;
     color: var(--fifth-color);
     text-align: left; 
+}
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
