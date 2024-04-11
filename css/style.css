@@ -115,6 +115,11 @@ a{
 .picture-box{
     display: flex;
 }
+.picture-box-item{
+    width: 370px;
+    height: 294px;
+    padding: 15px;
+}
 .smaller-text{
     font-family: 'Roboto';
     font-weight: 700;
@@ -125,21 +130,25 @@ a{
     color: var(--fourth-color);
     text-align: center; 
 }
-.second-ul-li{
+.team-ul-li{
     padding: 15px;
+}
+.team-div{
+    background-color: #FFFFFF;
 }
 .people-pic{
     width: 270px;
     height: 260px;
 }
-.second-ul{
+.team-ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .second-div{
     background-color: #F5F4FA;
+    height: 650px;
 }
-.second-ul-name{
+.team-ul-name{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -149,7 +158,7 @@ a{
     color: var(--fourth-color);
     text-align: center; 
 }
-.second-ul-job{
+.team-ul-job{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -207,6 +216,7 @@ address{
 .porfolio-pic{
     width: 370px;
     height: 294px;
+    padding: 30px;
 }
 .third-ul-item{
     font-family: 'Roboto';
