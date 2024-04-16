@@ -6,11 +6,14 @@ a{
     text-decoration: none;
     color: var(--fourth-color);
 }
-.main-nav-item:hover{
+.main-nav-child:hover{
     color: blue;
 }
+
 .main-nav{
-    display:flex;    
+    display:flex;  
+    align-items: center;
+    height: 80px;
 }
 .logo-main{
     font-family: 'Raleway';
@@ -20,7 +23,7 @@ a{
     letter-spacing: 0,03em;
     text-decoration: none;
     color: #000;
-    text-align: center; 
+    text-align: left;
 }
 .logo-foot{
     font-family: 'Raleway';
@@ -31,6 +34,14 @@ a{
     text-decoration: none;
     color: #FFFFFF;
     text-align: center; 
+    padding: 10px 0;
+}
+.main-nav-child{
+    display: flex;
+    justify-content: space-between;
+    gap: 345px;
+    margin: 0;
+    padding: 0;
 }
 .main-nav-item-ul{
     font-family: 'Roboto';
@@ -41,9 +52,18 @@ a{
     text-decoration: none;
     color: var(--fourth-color);
     text-align: left; 
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+
     
 }
-
+.main-nav-item-info{
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
 .main-nav-item-info-1{
    
     font-family: 'Roboto';
@@ -67,7 +87,8 @@ a{
     text-align: left; 
 }
 .main-section{
-    display: block;
+    height: 600px; 
+    padding-top: 200px;
 }
 .main-section-item{
     font-family: 'Roboto';
@@ -78,6 +99,9 @@ a{
     text-decoration: none;
     color: var(--third-color);
     text-align: center; 
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 .main-section-item-button{
     font-family: 'Roboto';
@@ -87,11 +111,20 @@ a{
     letter-spacing: 0,06em;
     text-decoration: none;
     color: var(--third-color);
-    text-align: center; 
+    text-align: center;   
+    border: none; 
+    border-radius: 5px;
+    padding: 10px 30px;
+    display: flex;
+    margin: 30px auto;
+
 }
 .main-ul{
     display: flex;
+    margin: 95px auto;
+    justify-content: space-between;
 }
+
 .main-ul-item{
     font-family: 'Roboto';
     font-weight: 700;
@@ -114,6 +147,7 @@ a{
 }
 .picture-box{
     display: flex;
+    justify-content: space-between;
 }
 .picture-box-item{
     width: 370px;
@@ -129,6 +163,7 @@ a{
     text-decoration: none;
     color: var(--fourth-color);
     text-align: center; 
+    padding-top: 0px;
 }
 .team-ul-li{
     padding: 15px;
@@ -143,10 +178,12 @@ a{
 .team-ul{
     display: flex;
     justify-content: space-between;
+    
 }
 .second-div{
     background-color: #F5F4FA;
     height: 650px;
+    padding-top: 90px;
 }
 .team-ul-name{
     font-family: 'Roboto';
@@ -170,6 +207,8 @@ a{
 }
 .main-footer{
     background-color: var(--first-color);
+    height: 252px;
+    padding-top: 50px;
 }
 address{
     font-family: 'Roboto';
@@ -183,6 +222,8 @@ address{
 }
 .address-ul{
     display: block;
+    align-items: center;
+    padding: 10px 0;
 }
 .address-item-1{
     color: rgba(255, 255, 255, 1);
