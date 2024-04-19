@@ -112,6 +112,7 @@ a{
     text-decoration: none;
     color: var(--third-color);
     text-align: center;   
+    background-color: rgba(33, 150, 243, 1);
     border: none; 
     border-radius: 5px;
     padding: 10px 30px;
@@ -165,11 +166,10 @@ a{
     text-align: center; 
     padding-top: 0px;
 }
-.team-ul-li{
-    padding: 15px;
-}
+
 .team-div{
     background-color: #FFFFFF;
+    gap: 30px;
 }
 .people-pic{
     width: 270px;
@@ -293,7 +293,7 @@ li{
     text-align: left; 
 }
 .container{
-    max-width: 1170px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
