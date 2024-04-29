@@ -1,19 +1,33 @@
-:root{--first-color:#2F303A; --second-color:#F5F4FA; --third-color:#FFFFFF; --fourth-color: #212121; --fifth-color: #757575 ;}
+:root{--first-color:#2F303A; --second-color:#F5F4FA; 
+    --third-color:#FFFFFF; 
+    --fourth-color: #212121; 
+    --fifth-color: #757575 ;
+     --hover-color: #2196F3 ;}
 .main-section{
     background-color: var(--first-color, red);
 }
 a{
     text-decoration: none;
     color: var(--fourth-color);
+    cursor: default;
 }
-.main-nav-child:hover{
-    color: blue;
+.main-nav-item-a:hover{
+    color: var(--hover-color);
 }
-
+ul{
+    padding-inline-start: 0px;
+}
 .main-nav{
     display:flex;  
     align-items: center;
     height: 80px;
+    gap: 95px;
+}
+.Web{
+    color: var(--hover-color);
+}
+.porftolio-header{
+    border-bottom: solid 1px #ECECEC;
 }
 .logo-main{
     font-family: 'Raleway';
@@ -235,9 +249,12 @@ address{
 .buttons-ul{
     display: flex;
     justify-content: center;
+    gap: 8px;
+    margin-top: 95px;
+    margin-bottom: 50px;
 }
 
-.buttons-ul-item{
+.buttons-ul-item-btn{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -246,19 +263,37 @@ address{
     text-decoration: none;
     color:var(--fourth-color);
     text-align: center; 
-    background-color: #FFFFFF;
+    background-color: var(--second-color);
     padding: 4px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+.buttons-ul-item-btn:hover{
+    background-color: var(--hover-color);
+    color: var(--third-color);
+    cursor:pointer;
+    box-shadow: 0px 3px 4px var(--fifth-color);
 }
 .third-ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 30px;
+    margin-bottom: 95px;
+    
 }
-.porfolio-pic{
+.third-ul-li{
+    width: calc( (100% - 60px)/3 );
+    border-bottom: 1px solid #ECECEC;
+    border-left: 1px solid #ECECEC;
+    border-right: 1px solid #ECECEC;
+}
+
+/* .porfolio-pic{
     width: 370px;
     height: 294px;
     padding: 30px;
-}
+} */
 .third-ul-item{
     font-family: 'Roboto';
     font-weight: 700;
@@ -268,6 +303,7 @@ address{
     text-decoration: none;
     color: var(--fourth-color);
     text-align: left; 
+    margin-bottom: 0;
 }
 .third-ul-item-name{
     font-family: 'Roboto';
@@ -278,6 +314,14 @@ address{
     text-decoration: none;
     color: var(--fifth-color);
     text-align: left; 
+    margin-top: 0;
+    padding-top: 15px;
+}
+.third-ul-li-div{
+    margin-top:30px ;
+    margin-left: 23px;
+    margin-bottom: 30px;
+    
 }
 li{
     list-style: none;
