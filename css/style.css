@@ -138,6 +138,7 @@ ul{
     display: flex;
     margin: 95px auto;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .main-ul-item{
@@ -149,6 +150,7 @@ ul{
     text-decoration: none;
     color: var(--fourth-color);
     text-align: left; 
+    background-color: var(--third-color);
 }
 .main-ul-item-text{
     font-family: 'Roboto';
@@ -159,6 +161,35 @@ ul{
     text-decoration: none;
     color: var(--fifth-color);
     text-align: left; 
+    background-color: var(--third-color);
+}
+.main-ul-li::before{
+    display: block;
+ content: "";
+ width: 270px;
+ height: 120px;
+ border-radius: 3px;
+ background-color: var(--second-color);
+}
+.main-ul-li:first-child::before{
+    background-image: url(./antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-ul-li:nth-child(2):before{
+    background-image: url(./clock\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-ul-li:nth-child(3):before{
+    background-image: url(./diagram\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-ul-li:last-child::before{
+    background-image: url(./astronaut\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .picture-box{
     display: flex;
