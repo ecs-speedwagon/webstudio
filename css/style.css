@@ -215,6 +215,7 @@ ul{
 .team-div{
     background-color: #FFFFFF;
     gap: 30px;
+    box-shadow: 0px 1px 2px var(--fifth-color);
 }
 .people-pic{
     width: 270px;
@@ -223,8 +224,9 @@ ul{
 .team-ul{
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .second-div{
     background-color: #F5F4FA;
     height: 650px;
@@ -318,6 +320,9 @@ address{
     border-bottom: 1px solid #ECECEC;
     border-left: 1px solid #ECECEC;
     border-right: 1px solid #ECECEC;
+}
+.third-ul-li:hover{
+    box-shadow: 0px 3px 4px var(--fifth-color);
 }
 
 /* .porfolio-pic{
