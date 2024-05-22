@@ -3,9 +3,7 @@
     --fourth-color: #212121; 
     --fifth-color: #757575 ;
      --hover-color: #2196F3 ;}
-.main-section{
-    background-color: var(--first-color, red);
-}
+
 h5{
     margin-block-start: 0;
     margin-block-end: 0 ;
@@ -107,9 +105,15 @@ ul{
     color: var(--fourth-color);
     text-align: left; 
 }
-.main-section{
+.main-section{  
     height: 600px; 
     padding-top: 200px;
+    background-image: linear-gradient( to bottom, rgba(47, 48, 58, 0.4), rgba(130, 132, 160, 0.4)),  
+        url(../img/Img.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
 }
 .main-section-item{
     font-family: 'Roboto';
