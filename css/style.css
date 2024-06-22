@@ -242,7 +242,7 @@ ul{
 
 .background-div{
     background-color: #F5F4FA;
-    height: 650px;
+    height: 710px;
     padding-top: 90px;
 }
 .team-ul-name{
@@ -264,8 +264,9 @@ ul{
     text-decoration: none;
     color: var(--fourth-color);
     text-align: center; 
+    padding-bottom: 90px;
 }
-.main-footer{
+.background-foot{
     background-color: var(--first-color);
     height: 252px;
     padding-top: 50px;
