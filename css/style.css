@@ -21,6 +21,7 @@ a{
 }
 .main-nav-item-a:hover{
     color: var(--hover-color);
+    cursor: pointer;
 }
 ul{
     padding-inline-start: 0px;
@@ -80,6 +81,9 @@ ul{
     justify-content: space-around;
 
     
+}
+.main-nav-item-info-1>a{
+    display: flex;
 }
 .main-nav-item-info{
     display: flex;
@@ -416,4 +420,77 @@ li{
         fill: var(--third-color);
         border: none;
         cursor: pointer;}
-    }
+ }
+.regular-customers{
+   max-height: 375px;
+}
+.regular-customers>h2{
+    margin-top:  94px;
+}
+.regulars-logo{
+    display: flex;
+    gap: 32px;
+}
+.regulars-logo>li{
+    margin-top: 50px;
+    width: 170px;
+    height: 92px;
+    border: solid 1px #AFB1B8;
+    border-radius: 5px;
+    margin-bottom: 95px;
+    padding: 15px 30px;
+}
+.regulars-logo>li:hover{
+    border:solid 1px var(--hover-color);
+    fill: var(--hover-color);
+}
+.foot-cont{
+    display: flex;
+}
+.join-cont{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 45px;
+    margin-left: 31px;
+}
+
+.join{
+    fill: var(--third-color);
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.join-circle{
+    width: 44px;
+    height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.join-circle:hover{
+    background-color:  var(--hover-color);
+      width: 44px;
+      height: 44px;
+    border-radius: 50%;
+
+    .join{
+        border: none;
+        cursor: pointer;}
+ }
+.join-div>h3{
+    text-transform:uppercase;
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--third-color);
+margin:0 90px;
+margin-top:10px ;
+}
+.join-div{
+    display: block;
+
+}
+.join-help-div{
+    margin-left: 63px;
+}
