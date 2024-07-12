@@ -165,18 +165,35 @@
                 <button class="main-section-item-button"  data-modal-open>Замовити Послугу</button>
                 <div class="backdrop is-hidden"  data-modal >
                     <div class="modal">
-                        <button class="btn" data-modal-close>
+                        <button class="modal-btn" data-modal-close>
                             <div class="close-modal">
                                 <svg class="X" width="11px" height="11px" >                                         
                                     <use class="close-modal-el" href="#icon-Vector"></use>
                                 </svg>
                              </div>
                         </button>
-                        <p>Залиште свої дані, ми вам передзвонимо</p>
-                      <form >
-                            <div>
-                                <input type="name" class="modal-form" width="300px">
-                            </div>
+                        <h1 class="modal-name">Залиште свої дані, ми вам передзвонимо</h1>
+                      <form class="modal-form">
+                          <label for="modal-form-el">Ім'я</label>
+                          <input type="text" name="name"  class="modal-form-el">
+
+                          <label for="modal-form-el">Телефон</label>
+                          <input type="text" name="phone"  class="modal-form-el">
+
+                          <label for="modal-form-el">Пошта</label>
+                          <input type="text" name="phone"  class="modal-form-el">
+
+                          <label for="modal-comm">Коментар</label>
+                          <textarea name="" id="modal-comm" placeholder="Введіть текст" ></textarea>
+                        <div class="m-f-checkbox">
+                          <label >
+                            <input type="checkbox" >
+                            Погоджуюся з розсилкою та приймаю <a href="" id="checkbox-link">Умови договору</a>
+                          </label>
+                        </div>
+                          <button type="button">
+                                Відправити
+                          </button>
                       </form>
                     </div>
                 </div>

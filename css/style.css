@@ -572,7 +572,102 @@ margin-top:10px ;
 .no-scroll{
     overflow: hidden;
 }
+
+.modal-name{
+    font-family: 'Roboto';
+font-size: 20px;
+font-weight: 700;
+line-height: 23.44px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
 .modal-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.modal-form>label{
+    padding-left: 25px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+   color: rgba(117, 117, 117, 1);
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   font-family: 'Roboto';
+   letter-spacing: 0.01em;
+}
+.modal-form-el{
+    margin:0 auto;
+    height: 40px;
+    width: 447px;
+ border: 1px solid rgba(33, 33, 33, 0.2);
+ border-radius: 4px;
+}
+/* .modal-form:focus{
+border: 1px solid var(--hover-color) ;
+color: var(--hover-color);
+} */
+#modal-comm{
+    margin:0 auto;
+    height: 120px;
+    width: 447px;
+    padding-top: 13px;
+    padding-left: 15px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-    margin-left: 200px;
+ border-radius: 4px;
+ margin-bottom: 10px;
+}
+#checkbox-link{
+    color: var(--hover-color);
+    text-decoration:  underline;
+    cursor: default;
+}
+.m-f-checkbox{
+    margin: 0 auto;
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color:rgba(117, 117, 117, 1) ;
+
+}
+.modal-form>button{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0,06em;
+    text-decoration: none;
+    color: var(--third-color);
+    text-align: center; 
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--hover-color);
+    margin:25px auto ;
+    box-shadow: 0px 1px 3px var(--fifth-color);
+}
+
+
+.modal-btn{
+    margin-left: 470px;
+    border: 1px solid rgba(33, 33, 33, 0.2)  ;
+    background-color: var(--third-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.modal-btn:hover{
+    cursor: pointer;
+    .X{
+        fill: var(--hover-color);
+        
+    }
+    
 }
