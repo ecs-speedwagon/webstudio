@@ -24,6 +24,35 @@ a{
     color: var(--hover-color);
     cursor: pointer;
 }
+.main-nav-botline-st{
+    width:48px ;
+   border: 2px solid inherit;
+   border-radius: 4px;
+}
+.main-nav-botline-pr{
+    width:78px ;
+    border: 2px solid inherit;
+    border-radius: 4px;
+}
+.main-nav-botline-ct{
+    width:62px ;
+    border: 2px solid inherit;
+border-radius: 4px;
+}
+.main-nav-item{
+    display: flex;
+    flex-direction: column;
+}
+.main-nav-item:hover{
+    color: var(--hover-color);
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    >div{ border: 2px solid var(--hover-color);
+    position: relative;
+top: 28px;}
+   
+}
 ul{
     padding-inline-start: 0px;
 }
@@ -63,7 +92,7 @@ ul{
 .main-nav-child{
     display: flex;
     justify-content: space-between;
-    gap: 340px;
+    gap: 325px;
     margin: 0;
     padding: 0;
 }
@@ -79,9 +108,7 @@ ul{
     display: flex;
     gap: 40px;
     align-items: center;
-    justify-content: space-around;
-
-    
+    justify-content: space-around;   
 }
 .main-nav-item-info-1>a{
     display: flex;
@@ -376,12 +403,42 @@ address{
 .third-ul-li{
     width: calc( (100% - 60px)/3 );
     line-height: 0;
+    position: relative;
 }
 .third-ul-li:hover{
     box-shadow: 1px 2px 3px var(--fifth-color);
 }
+.third-ul-li:hover .porf-pic-hover{
+    transform: translatey(0);
+    background-color: rgba(33, 150, 243, 0.9);
+    p{
+        color: rgba(255, 255, 255, 1);
+        padding-top: 25px;
+        width: 322px;
+        height: 168px;
+        padding-left: 40px;
+    } 
+}
+.porf-pic-hover{
+    position: absolute;
+   bottom: 130px;
+    left: 0;
+    width: 100%;
+    height: 295px;
+    background-color: inherit;
+    transform: translatey(0%);
+    transition: transform 200ms ease-in-out;
+}
+.porf-pic-hover>p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF00 ;
 
-
+}
 .third-ul-item{
     font-family: 'Roboto';
     font-weight: 700;
@@ -408,7 +465,7 @@ address{
 .third-ul-li-div{
     padding-top:30px ;
     padding-left: 23px;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
     border-bottom: 1px solid #ECECEC;
     border-left: 1px solid #ECECEC;
     border-right: 1px solid #ECECEC;
@@ -554,6 +611,7 @@ margin-top:10px ;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
+    z-index: 2;
 }
 .is-hidden{
     opacity: 0;
@@ -570,7 +628,7 @@ margin-top:10px ;
     padding: 15px;
 }
 .no-scroll{
-    overflow: hidden;
+    overflow: visible;
 }
 
 .modal-name{
@@ -589,7 +647,6 @@ text-align: center;
 }
 .modal-form>label{
     padding-left: 25px;
-    padding-bottom: 5px;
     margin-top: 10px;
    color: rgba(117, 117, 117, 1);
    font-weight: 400;
@@ -598,26 +655,55 @@ text-align: center;
    font-family: 'Roboto';
    letter-spacing: 0.01em;
 }
+
+
+.place-icon{
+    fill: rgba(33, 33, 33, 1);
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+
 .modal-form-el{
-    margin:0 auto;
+    display: flex;
+    flex-direction: column;
     height: 40px;
     width: 447px;
  border: 1px solid rgba(33, 33, 33, 0.2);
  border-radius: 4px;
+ padding-left: 40px;
+ margin-top: 5px;
 }
-/* .modal-form:focus{
-border: 1px solid var(--hover-color) ;
+
+.modal-form-el:focus{
+    color: var(--hover-color);
+    outline: 1px solid var(--hover-color);
+    + .place-icon{
+    fill: var(--hover-color);
+    }
+}
+
+.modal-form-el:hover{
+    cursor: pointer;
+}
+
+.modal-form-ch:focus{
 color: var(--hover-color);
-} */
+cursor: pointer;
+    fill: var(--hover-color);
+}
+
+
+
 #modal-comm{
     margin:0 auto;
     height: 120px;
     width: 447px;
-    padding-top: 13px;
+ 
     padding-left: 15px;
     border: 1px solid rgba(33, 33, 33, 0.2);
  border-radius: 4px;
- margin-bottom: 10px;
+ margin-bottom: 15px;
 }
 #checkbox-link{
     color: var(--hover-color);
