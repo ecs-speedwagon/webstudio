@@ -409,7 +409,7 @@ address{
     box-shadow: 1px 2px 3px var(--fifth-color);
 }
 .third-ul-li:hover .porf-pic-hover{
-    transform: translatey(0);
+    transform: translatey(1);
     background-color: rgba(33, 150, 243, 0.9);
     p{
         color: rgba(255, 255, 255, 1);
